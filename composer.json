@@ -1,0 +1,21 @@
+{
+  "name": "weq-lib/weq-client",
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "php-curl-class/php-curl-class": "^8.6",
+    "stechstudio/backoff": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+       "WeqClient\\": "src/"
+    }
+  }
+}
