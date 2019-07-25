@@ -28,7 +28,7 @@
 `composer` コマンドからインストールします。
 
 ```
-$ composer install weq-lib/weq-client
+$ composer install
 ```
 
 
@@ -95,7 +95,7 @@ foreach ($weqClient->fetch($resource, $query, $binds) as $row) {
 #### 範囲結果取得
 
 クエリの結果を範囲指定で取得できる機能です。   
-指定できるリミット値の条件は `1000` です。
+指定できるリミット値の上限は `1000` です。
 
 ```
 $resource = 'salesdb';
